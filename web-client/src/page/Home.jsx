@@ -1,19 +1,6 @@
 import {Link }from 'react-router-dom'
 import { 
-  LayoutDashboard, 
-  ClipboardList, 
-  MessageSquare, 
-  MapPin, 
-  Phone, 
-  Droplet 
-} from 'lucide-react';
-
-const Home = () => {
-  return (
-    // 'w-full' and 'h-screen' ensure the gray background fills the entire laptop display
-    <div className="h-screen w-full bg-slate-50 font-sans text-slate-700 overflow-hidden flex flex-col">
-      
-      {/* Navigation - Stretches full width with px-12 for edge breathing room */}
+  LayoutDashboard,full width with px-12 for edge breathing room */}
       <nav className="flex items-center justify-between px-12 py-4 bg-white border-b border-slate-100 shrink-0 w-full">
         <div className="flex items-center gap-2 text-blue-600 font-bold text-2xl">
           <Droplet fill="currentColor" size={28} />
